@@ -16,7 +16,7 @@ const totpToken = ref('')
 const showTOTP = ref(false)
 
 const loginWithGoogle = () => {
-  window.location.href = 'http://localhost:3000/api/auth/google'
+  window.location.href = 'https://sitio-seguridad.netlify.app/api/auth/google'
 }
 
 const handleLogin = async () => {
