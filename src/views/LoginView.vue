@@ -16,7 +16,7 @@ const totpToken = ref('')
 const showTOTP = ref(false)
 
 const loginWithGoogle = () => {
-  window.location.href = 'https://sitio-seguridad.netlify.app/api/auth/google'
+  window.location.href = 'https://back-seguridad-ruby.vercel.app/api/auth/google'
 }
 
 const handleLogin = async () => {
