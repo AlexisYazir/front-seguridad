@@ -1,0 +1,10 @@
+[build]
+  publish = "dist"  # o la carpeta de build de tu proyecto
+
+[[redirects]]
+  from = "/*"
+  to = "/index.html"
+  status = 200
+
+[build.environment]
+  NODE_VERSION = "18"
